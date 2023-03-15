@@ -1,0 +1,7 @@
+html body{
+  all: unset;
+  background: #fff1e6 ;
+}
+#vegtitle{
+  display: none;
+}
