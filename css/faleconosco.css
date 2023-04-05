@@ -1,5 +1,6 @@
 html body {
   font-family: 'Poppins', sans-serif;
+  color: #503725;
 }
 
 #main_fale{
@@ -110,4 +111,7 @@ i {
 }
 .displayNone {
   display: none;
+}
+h4{
+  color: #778E76;;
 }

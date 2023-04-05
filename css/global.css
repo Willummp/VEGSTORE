@@ -8,4 +8,17 @@ html body{
 #vegtitle{
   display: none;
 }
+#whats {
+  position: fixed;
+  right: 2em;
+  bottom: 2em;
+  
+  width: 3em;
+  height: 3em;
 
+  transition: 100ms;
+}
+
+#whats:hover {
+  opacity: 70%;
+}
