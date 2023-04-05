@@ -9,6 +9,7 @@
   <link href="/css/navbar.css" rel="stylesheet" type="text/css" />
   <link href="/css/faleconosco.css" rel="stylesheet" type="text/css" />
   <link href="/css/footer.css" rel="stylesheet" type="text/css" />
+
   <title>VEGSTORE - Fale Conosco</title>
 </head>
 
@@ -22,17 +23,89 @@
       <div class='navbar_item' id="navbar_item2" tabindex="0" onclick="window.location.href='index.html';">VOLTAR</div>
     </div>
   </nav>
+  <div id='main_fale'>
+    <section id="formulario">
+      <form id="form">
+        <input id="formNome" type="text" placeholder="Nome" minlength="2" required>
+        <input id="formEmail" type="email" placeholder="E-mail" required>
+        <input id="formTel" type="number" placeholder="Telefone" required>
+      </form>
+    </section>
+
+    <section id="checkbox">
+      <h4>Deseja receber contato via:</h4>
+      <section>
+        <div class="checkbox" id="caixa1" onclick="marcar(this)">
+          <i class="caixinha" id="checkInt"></i>
+          <i class="caixinha" id="checkPai"></i>
+        </div>
+        <span>Todos os meios</span>
+      </section>
+      <section>
+        <div class="checkbox" id="caixa2" onclick="marcar(this)">
+          <i id="check1" class="caixinha2"></i>
+        </div>
+        <span>E-mail</span>
+      </section>
+      <section>
+        <div class="checkbox" id="caixa3" onclick="marcar(this)">
+          <i id="check2" class="caixinha3"></i>
+        </div>
+        <span>Whatsapp</span>
+      </section>
+    </section>
+
+    <section id="radio">
+      <h4>Qual a sua preferência de carne vegana?</h4>
+      <section>
+        <div id="divR1" onclick="mSoja()"></div>
+        <div class="div" onclick="mSoja()"> Carne de Soja</div>
+      </section>
+      <section>
+        <div id="divR2" onclick="mLeguminosas()"></div>
+        <div class="div" onclick="mLeguminosas()">Carne de Leguminosas</div>
+      </section>
+      <section>
+        <div id="divR3" onclick="mTodos()"></div>
+        <div class="div" onclick="mTodos()">Tudo</div>
+      </section>
+    </section>
+
+    <section id="opcao">
+      <span class="selectOpcao select" id="op1" onclick="select(this)">Abobora</span>
+      <span class="selectOpcao hidden" id="op2" onclick="select(this)">Soja</span>
+      <span class="selectOpcao hidden" id="op3" onclick="select(this)">Girassol</span>
+      <span class="selectOpcao hidden" id="op4" onclick="select(this)">Outros</span>
+    </section>
+
+    <h4>Nos mande uma mensagem:</h4>
+
+    <section>
+      <textarea id="mensagem" cols="40" rows="10" minlength="5" label='mensagem'></textarea>
+    </section>
+
+    <button form="form" onclick="enviar()">Enviar</button>
+
+
+
+
+
+  </div>
 
 
   <footer>
     <img id="logo_footer" src="/assets/LOGO NAV.svg">
     <div id='footer_text'>Há quarenta anos comercializando produtos de qualidade</div>
     <div id='socialmediabox'>
-      <a href='github.com/Willummp' class='socialmedia' id='socialmedia1'><img id='scmimg'src="/assets/ghubsvg.svg"></a>
-      <a href='mailto:lsousaah@gmail.com' class='socialmedia' id='socialmedia2'><img id='scmimg' src="/assets/email.png"></a>
-      <a href='https://www.linkedin.com/in/lucas-ferreira-wlmp/' class='socialmedia' id='socialmedia3'><img id='scmimg' src="/assets/lkdnsvg.svg"></a>
+      <a href='github.com/Willummp' class='socialmedia' id='socialmedia1'><img id='scmimg'
+          src="/assets/ghubsvg.svg"></a>
+      <a href='mailto:lsousaah@gmail.com' class='socialmedia' id='socialmedia2'><img id='scmimg'
+          src="/assets/email.png"></a>
+      <a href='https://www.linkedin.com/in/lucas-ferreira-wlmp/' class='socialmedia' id='socialmedia3'><img id='scmimg'
+          src="/assets/lkdnsvg.svg"></a>
     </div>
   </footer>
+  <script src="/js/fale.js"></script>
 </body>
 
 </html>
