@@ -1,0 +1,113 @@
+html body {
+  font-family: 'Poppins', sans-serif;
+}
+
+#main_fale{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#formulario {
+  display: flex;
+  padding-top: 8rem;
+  flex-direction: column;
+}
+#form{
+  display: flex;
+  flex-direction: column;
+}
+/* radio button */
+#radio {
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+  margin-bottom: 3%;
+}
+
+#radio section {
+  display: flex;
+  align-items: center;
+}
+
+#divR1,
+#divR2,
+#divR3 {
+  width: 1em;
+  height: 1em;
+  border: 4px solid #835B3D;
+  border-radius: 50%;
+  margin: 5px 15px;
+}
+
+/* selecttt */
+.selectOpcao {
+  cursor: pointer;
+  width: 5rem;
+}
+.hidden {
+  display: none;
+}
+.select {
+  display: initial;
+  padding: 0.5em 0.75em;
+  margin: 1px;
+  border: 4px solid #835B3D;
+  border-radius: 10px;
+  color: #5a412d;
+  background-color: #fff;
+}
+#opcao {
+  display: flex;
+  flex-direction: column;
+  font-size: 16pt;
+  padding: 0.2em;
+  width: 250px;
+  height: 270px;
+}
+
+/* check */
+.checkboxPai{
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.75em;
+  border: 4px solid #503725;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+#checkbox section {
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+}
+
+#checkbox span{
+  font-size: 1em;
+}
+
+.check {
+  background-color: #835B3D;
+}
+
+i {
+  color: white;
+}
+.display {
+  display: block
+}
+.displayNone {
+  display: none;
+}

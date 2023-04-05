@@ -5,14 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/css/navbar.css" rel="stylesheet" type="text/css" />
-  <link href="/css/footer.css" rel="stylesheet" type="text/css" />
-
-  <link href="/css/media1.css" rel="stylesheet" type="text/css" />
-
-  <link href="/css/maincontent.css" rel="stylesheet" type="text/css" />
-  <link href="/css/media2.css" rel="stylesheet" type="text/css" />
-  <link href="/css/global.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="/css/navbar.css" type="text/css">
+  <link rel="stylesheet" href="/css/footer.css" type="text/css">
+  <link rel="stylesheet" href="/css/media1.css" type="text/css">
+  <link rel="stylesheet" href="/css/maincontent.css" type="text/css">
+  <link rel="stylesheet" href="/css/media2.css" type="text/css">
+  <link rel="stylesheet" href="/css/global.css" type="text/css">
   <script src="/js/script.js"></script>
   <title>Vegstore</title>
 </head>
@@ -24,8 +22,9 @@
     <div id='navbar_text'>Funcionamento de Seg à Sex das 7h ás 19h (Sábados das 7h ás 15h)</div>
     <div id='navbar_text_2'>(21) 99999-8888</div>
     <div class='navbar_itens'>
-      <span  class='navbar_item' id='navbar_item1' onclick="document.getElementById('main_quemsomos').scrollIntoView({ behavior: 'smooth' });" >CONTATO</span>
-      <span class='navbar_item' id="navbar_item2"> </span>
+      <span class='navbar_item' id='navbar_item1'
+        onclick="document.getElementById('main_quemsomos').scrollIntoView({ behavior: 'smooth' });">CONTATO</span>
+      <span class='navbar_item' id="navbar_item2" tabindex="0" onclick="window.location.href='faleconosco.html';">FALE CONOSCO </span>
     </div>
   </nav>
   <main>
@@ -34,77 +33,74 @@
       <p id='main_title'>VITRINE</p>
 
       <!-- 1ª COLUNA -->
-      <div class='item_column' id='item_column_1'>
+      <section class='item_column' id='item_column_1'>
         <img class='item' src='/assets/soymeat1.jpg' id='item1c1'>
 
         <img class='item' src='/assets/soymeat1.jpg' id='item2c1'>
-      </div>
+      </section>
       <!-- 2ª COLUNA -->
-      <div class='item_column' id='item_column_2'>
+      <section class='item_column' id='item_column_2'>
         <img class='item' src='/assets/soymeat1.jpg' id='item1c2'>
 
         <img class='item' src='/assets/soymeat1.jpg' id='item2c2'>
-      </div>
+      </section>
       <!-- 3ª COLUNA -->
-      <div class='item_column' id='item_column_3'>
+      <section class='item_column' id='item_column_3'>
         <img class='item' src='/assets/soymeat1.jpg' id='item1c3'>
 
         <img class='item' src='/assets/soymeat1.jpg' id='item2c3'>
-      </div>
+      </section>
       <!-- 4ª COLUNA -->
-      <div class='item_column' id='item_column_4'>
+      <section class='item_column' id='item_column_4'>
         <img class='item' src='/assets/soymeat1.jpg' id='item1c4'>
 
 
 
         <img class='item' src='/assets/soymeat1.jpg' id='item2c4'>
-      </div>
+      </section>
       <!-- 5ª COLUNA -->
-      <div class='item_column' id='item_column_5'>
+      <section class='item_column' id='item_column_5'>
         <img class='item' src='/assets/soymeat1.jpg' id='item1c5'>
 
         <img class='item' src='/assets/soymeat1.jpg' id='item2c5'>
-      </div>
+      </section>
       <!-- 6ª COLUNA -->
-      <div class='item_column' id='item_column_6'>
+      <section class='item_column' id='item_column_6'>
         <img class='item' src='/assets/soymeat1.jpg' id='item1c6'>
 
         <img class='item' src='/assets/soymeat1.jpg' id='item2c6'>
-      </div>
+      </section>
       <!-- 7ª COLUNA -->
-      <div class='item_column' id='item_column_7'>
+      <section class='item_column' id='item_column_7'>
         <img class='item' src='/assets/soymeat1.jpg' id='item1c7'>
 
         <img class='item' src='/assets/soymeat1.jpg' id='item2c7'>
-      </div>
+      </section>
       <!-- 8ª COLUNA -->
-      <div class='item_column' id='item_column_8'>
+      <section class='item_column' id='item_column_8'>
         <img class='item' src='/assets/soymeat1.jpg' id='item1c8'>
 
         <img class='item' src='/assets/soymeat1.jpg' id='item2c8'>
-      </div>
+      </section>
 
-      <div id="main_quemsomos">
+      <article id="main_quemsomos">
         <h2 id="quemsomos_title">QUEM SOMOS?</h2>
         <div id="quemsomos_texto">
-          A VEGSTORE FOI CRIADA NA INTENÇÃO DE DIMINUIR A DISTANCIA
-          QUE AS PESSOAS TEM COM A COMIDA VEGETARIANA/VEGANA, NÓS ACREDITAMOS QUE COMER É UMA DAS GRANDES MARAVILHAS DA
-          VIDA
-          AQUI NÓS COMEMOS, BEBEMOS, COZINHAMOS, VIAJAMOS PARA CONHECER E DESCOBRIR SABORES
+          A Vegstore foi criada com o objetivo de aproximar as pessoas da culinária vegetariana/vegana e torná-la mais acessível. Acreditamos que comer é uma das grandes alegrias da vida e que a comida vegetariana/vegana pode ser tão deliciosa e prazerosa quanto qualquer outra. Em nossa loja, oferecemos uma variedade de produtos de qualidade, desde ingredientes frescos a itens prontos para consumo, para que todos possam experimentar e desfrutar de uma alimentação saudável, sustentável e saborosa. Além disso, estamos sempre em busca de novas descobertas e experiências culinárias, para compartilhar com nossa comunidade de clientes e amigos.
+        </div>
+      </article>
+      <div id="main_contato">
+        <h2 id="contato_title">FUNCIONAMENTO E CONTATO</h2>
+        <div id="contato_subtext">De seg à sex, das 7h às 19h</div>
+        <div class="telefones">
+          <div id="telefone1"><img src="/assets/tele.svg" alt="telefone logo"> (21) 02527-7125</div>
+          <div id="telefone2"><img src="/assets/zaplogo.svg" alt="zaplogo"> (21) 9990-84435</div>
+          <div id="telefone3"><img src="/assets/zaplogo.svg" alt="zaplogo"> (21) 9990-84436</div>
         </div>
       </div>
-        <div id="main_contato">
-      <h2 id="contato_title">FUNCIONAMENTO E CONTATO</h2>
-      <div id="contato_subtext">De seg à sex, das 7h às 19h</div>
-      <div class="telefones">
-        <div id="telefone1"><img src="/assets/tele.svg" alt="telefone logo"> (21) 02527-7125</div>
-        <div id="telefone2"><img src="/assets/zaplogo.svg" alt="zaplogo"> (21) 9990-84435</div>
-        <div id="telefone3"><img src="/assets/zaplogo.svg" alt="zaplogo"> (21) 9990-84436</div>
-      </div>
-    </div>
     </div>
 
-  
+
 
 
 
@@ -114,12 +110,14 @@
     <div id='footer_text'>Há quarenta anos comercializando produtos de qualidade</div>
 
     <div id='socialmediabox'>
-      <a href="github.com/Willummp" target="_blank"><img src='/assets/ghub.svg' class='socialmedia' id='socialmedia1'>      </a>
-      <a href="https://www.linkedin.com/in/lucas-ferreira-wlmp/" target="_blank"> <img src='/assets/lkdn.svg' class='socialmedia' id='socialmedia2'></a>
+      <a href="github.com/Willummp" target="_blank"><img src='/assets/ghub.svg' class='socialmedia' id='socialmedia1'>
+      </a>
+      <a href="https://www.linkedin.com/in/lucas-ferreira-wlmp/" target="_blank"> <img src='/assets/lkdnsvg.svg'
+          class='socialmedia' id='socialmedia2'></a>
       <a href="mailto:lsousaah@gmail.com"> <img src='/assets/email.svg' class='socialmedia' id='socialmedia3'></a>
-      
-     
-     
+
+
+
     </div>
   </footer>
 </body>
