@@ -24,7 +24,9 @@
 }
 .item{
   width: 38%;
+  height: 210px;
   border-radius: 15px;
+  
 }
 #main_quemsomos{
   margin-left: 8%;
