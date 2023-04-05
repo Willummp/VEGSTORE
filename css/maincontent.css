@@ -29,7 +29,7 @@
 #main_quemsomos{
   margin-left: 8%;
   margin-right: 8%;
-  height: 12rem;
+  height: 16rem;
   margin-bottom: 1rem;
   border-top: #778E76 4px solid;
   border-bottom: #778E76 4px solid;
@@ -70,6 +70,12 @@
   display: flex;
   flex-direction: row;
 }
+iframe{
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+ 
 
 #item1c1, #item1c2,  #item1c3,  #item1c4,  #item1c5, #item1c6, #item1c7, #item1c8{
   margin-left: 5%;
