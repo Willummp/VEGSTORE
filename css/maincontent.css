@@ -46,6 +46,31 @@
   color: #576257;
 }
 
+.socialmedia{
+  width: 48px;
+  margin: 10px;
+}
+
+#main_contato{
+  display: flex;
+  flex-direction: column;
+  margin-left: 8%;
+  margin-right: 8%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12pt;
+  text-align: center;
+  color: #576257;
+}
+#contato_title{
+  font-weight: bold;
+  font-size: 26pt;
+  color: #778E76;
+}
+#telefones{
+  display: flex;
+  flex-direction: row;
+}
+
 #item1c1, #item1c2,  #item1c3,  #item1c4,  #item1c5, #item1c6, #item1c7, #item1c8{
   margin-left: 5%;
 }

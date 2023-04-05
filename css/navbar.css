@@ -28,6 +28,7 @@
 
 .navbar_itens{
   position: fixed;
+  transition: top 0.22s ease-in-out;
   top: 5rem;
   right: 8rem;
   font-family: 'Poppins', sans-serif;
